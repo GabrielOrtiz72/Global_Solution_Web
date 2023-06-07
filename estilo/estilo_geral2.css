@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .titulo_h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family:initial;
+  }
+  
+  .inicio {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .inicio a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  .inicio a{
+    transition: all 0.2s ease-in-out;
+  }
+  .inicio a:hover {
+    transform: scale(1.1);
+}
+  .imagens {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .nomes {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .nomes h3 {
+    margin-bottom: 10px;
+    font-family: initial;
+  }
+  
+  .nomes p {
+    margin: 5px 0;
+  }
+  
